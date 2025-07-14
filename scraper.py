@@ -100,7 +100,7 @@ def get_mock_price(product_name: str) -> float:
     }
     return mock_prices.get(product_name.lower(), 999.0)
 
-# 🔧 Test it
+# Test it
 if __name__ == "__main__":
     test_products = ["mouse", "keyboard", "wireless earbuds", "backpack", "random item"]
     for product in test_products:
